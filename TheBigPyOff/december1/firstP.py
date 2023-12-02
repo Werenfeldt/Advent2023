@@ -9,7 +9,7 @@ def resetString(charDigits, number):
     charDigits = sub[1:]
     return charDigits
 
-with open("input.txt", 'r') as file:
+with open("input/input.txt", 'r') as file:
     for line in file:
         numbers = list()
         charDigits = ""

@@ -12,7 +12,7 @@ def check(redNumber, greenNumber, blueNumber):
     if(blueNumber != None and blueNumber > blue): return False
     return True
 
-with open("input.txt", 'r') as file:
+with open("input/input.txt", 'r') as file:
     for line in file:
         gameId, cubeLine = line.split(":")
         #print (f"game: {gameId}")

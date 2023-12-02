@@ -8,7 +8,7 @@ cubeList = dict()
 
 sum = 0
 
-with open("input.txt", 'r') as file:
+with open("input/input.txt", 'r') as file:
     for line in file:
         #get gameid
         gameId, cubeLine = line.split(":")
